@@ -1,0 +1,280 @@
+:root {
+  --main-background-color: #ffffff;
+  --accent-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-background-color: #e5e5e5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ПЕРША СТОРІНКА */
+
+.header {
+  background-color: var(--main-background-color);
+}
+.header-nav {
+  background-color: var(--main-background-color);
+}
+
+/* ЛОГО */
+
+.link-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-color {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.nav-studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.main-section {
+  background-color: var(--accent-background-color);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-background-color);
+}
+
+.main-title-btn {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+}
+
+.main-title-btn:hover,
+.main-title-btn:focus {
+  background-color: #188ce8;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-section {
+  background-color: var(--main-background-color);
+}
+
+.advantages-section-titles {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.advantages-section-content {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.servises-section {
+  background-color: var(--main-background-color);
+}
+.servises-section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+.team-section-first-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-section-second-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-section-article {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.footer {
+  background-color: var(--accent-background-color);
+}
+.link-logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
+  text-decoration: none;
+}
+.adress-footer {
+  font-style: normal;
+}
+
+.footer-link-map {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
+}
+
+.footer-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ДРУГА СТОРІНКА */
+
+.nav-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.filter-section-button {
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
+}
+
+.filter-section-buttons {
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.filter-section-buttons:hover,
+.filter-section-buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--main-background-color);
+}
+
+.portfolio-titles {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-content {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.first-logo:hover,
+.first-logo:focus {
+  text-decoration: underline, var(--accent-color);
+}
+.logo-color:hover,
+.logo-color:focus {
+  text-decoration: underline, var(--accent-color);
+}
